@@ -2,4 +2,6 @@ ipykernel
 numpy
 pandas
 scikit-learn
+pypickle
 streamlit
+streamlit-option-menu
