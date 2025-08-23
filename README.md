@@ -136,11 +136,15 @@ pip package manager
 
 1. Pull the image from Docker Hub
    ```bash
-   docker pull samanwoysaha/multiple-disease-prediction:1.0
+   docker pull samanwoysaha/multiple-disease-prediction:latest
    ```
-2. RUN the image
+2. Run the image
    ```bash
-   docker run -p 8501:8501 samanwoysaha/multiple-disease-prediction:1.0
+   docker run -p 8501:8501 samanwoysaha/multiple-disease-prediction:latest
+   ```
+3. **Open your browser**
+   ```
+   Navigate to: http://localhost:8501
    ```
 
 ## 📁 Project Structure
@@ -177,7 +181,7 @@ Multiple-Disease-Prediction/
 
 ## 🔗 Quick Links
 
-- **[🚀 Live Demo](https://ec2-65-2-184-235.ap-south-1.compute.amazonaws.com:8501/)**
+- **[🚀 Live Demo](http://ec2-43-204-23-83.ap-south-1.compute.amazonaws.com:8501/)**
 
 ## ⚠️ Disclaimer
 
