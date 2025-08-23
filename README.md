@@ -16,6 +16,7 @@ A comprehensive machine learning-powered web application that predicts multiple 
 - **Real-time Results**: Instant predictions with confidence scores
 - **Responsive Design**: Works seamlessly across devices
 - **Privacy-First**: No data storage, all processing done locally
+- 🔄 **Automated CI/CD Pipeline**: Complete GitHub Actions workflow with testing, Docker builds, and AWS EC2 deployment
 
 ## 📊 Model Performance
 
@@ -67,6 +68,29 @@ A comprehensive machine learning-powered web application that predicts multiple 
 | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) | Numerical Computing | 1.24+ |
 | ![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) | Machine Learning | 1.3+ |
 | ![Pickle](https://img.shields.io/badge/Pickle-3776AB?style=flat&logo=python&logoColor=white) | Model Serialization | Built-in |
+
+### DevOps & Deployment Stack
+
+| Technology | Purpose | Version |
+|------------|---------|---------|
+| ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white) | CI/CD Pipeline | Latest |
+| ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) | Containerization | 24.0+ |
+| ![DockerHub](https://img.shields.io/badge/DockerHub-2496ED?style=flat&logo=docker&logoColor=white) | Container Registry | Latest |
+| ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat&logo=amazon-aws&logoColor=white) | Cloud Infrastructure | Latest |
+
+### 🔄 CI/CD Pipeline Overview
+
+The pipeline consists of three main stages:
+
+1. 🧪 Testing Stage: Validates code quality and executes Jupyter notebooks
+2. 🏗️ Build & Push Stage: Creates Docker images and pushes to DockerHub
+   1. 📦 Docker Containerization: Automatically builds optimized Docker images
+   2. 🐳 DockerHub Integration: Seamlessly pushes images to DockerHub registry
+3. Deployment Stage: Automatically deploys to AWS EC2 with zero downtime
+   1. ☁️ Cloud Deployment: Deploys directly to AWS EC2 instances
+   2. 🔄 Zero-Downtime Deployment: Rolling updates without service interruption
+   3. 🧹 Resource Optimization: Automatic cleanup of unused Docker resources
+   4. 📊 Build Caching: Optimized build times using GitHub Actions cache
 
 ## Quick Start
 
@@ -154,7 +178,7 @@ Multiple-Disease-Prediction/
 
 ## 🔗 Quick Links
 
-- **[🚀 Live Demo](https://multiple-disease-prediction1.streamlit.app/)**
+- **[🚀 Live Demo](ec2-65-2-184-235.ap-south-1.compute.amazonaws.com:8501/)**
 
 ## ⚠️ Disclaimer
 
