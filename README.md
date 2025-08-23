@@ -123,16 +123,17 @@ pip package manager
 
 ```
 Multiple-Disease-Prediction/
-├── 📄 app.py                          # Main Streamlit application
+├── src/
+|   ├── 📄 app.py                       # Main Streamlit application
 ├── 📊 models/
-│   ├── diabetes_model.pkl             # Trained diabetes prediction model
-│   ├── heart_disease_model.pkl        # Trained heart disease model
-│   └── parkinsons_model.pkl           # Trained Parkinson's model
+│   ├── diabetes_model.sav             # Trained diabetes prediction model
+│   ├── heart_disease_model.sav        # Trained heart disease model
+│   └── parkinsons_model.sav           # Trained Parkinson's model
 ├── 📓 notebooks/
 │   ├── diabetes_prediction.ipynb      # Diabetes model training notebook
 │   ├── heart_disease_prediction.ipynb # Heart disease training notebook
 │   └── parkinsons_prediction.ipynb    # Parkinson's training notebook
-├── 📂 datasets/
+├── 📂 data/
 │   ├── diabetes.csv                   # Diabetes dataset
 │   ├── heart_disease.csv              # Heart disease dataset
 │   └── parkinsons.csv                 # Parkinson's dataset
