@@ -93,7 +93,7 @@ jobs:
             
             # Run new container
             sudo docker run -d \
-              --name disease-prediction \
+              --name multiple-disease-prediction \
               --restart unless-stopped \
               -p 8501:8501 \
               ${{ secrets.DOCKER_USERNAME }}/multiple-disease-prediction:latest

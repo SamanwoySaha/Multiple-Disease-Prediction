@@ -178,7 +178,7 @@ Multiple-Disease-Prediction/
 
 ## 🔗 Quick Links
 
-- **[🚀 Live Demo](ec2-65-2-184-235.ap-south-1.compute.amazonaws.com:8501/)**
+- **[🚀 Live Demo](https://ec2-65-2-184-235.ap-south-1.compute.amazonaws.com:8501/)**
 
 ## ⚠️ Disclaimer
 
