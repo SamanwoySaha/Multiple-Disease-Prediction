@@ -89,7 +89,7 @@ if selected == 'Parkinsons Disease Prediction':
     Fo = st.text_input('Average vocal fundamental frequency')
     Fhi = st.text_input('Maximum vocal fundamental frequency')
     Flo = st.text_input('Minimum vocal fundamental frequency')
-    Jitter = st.text_input('Mean Declination of Vocal Pitch (Jitter %)')
+    Jitter = st.text_input('Mean Declination of Vocal Pitch (Jitter Percentage)')
     JitterAbs = st.text_input('Mean Declination of Vocal Pitch (Jitter absolute)')
     D2 = st.text_input('Correlation Dimension')
     PPE = st.text_input('Pitch Period Entropy')
