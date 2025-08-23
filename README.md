@@ -169,7 +169,6 @@ Multiple-Disease-Prediction/
 
 - [ ] **Additional Diseases**: Liver disease, kidney disease, cancer prediction
 - [ ] **Deep Learning Models**: Implement neural networks for better accuracy
-- [ ] **API Development**: REST API for external integrations
 - [ ] **Mobile App**: React Native or Flutter mobile application
 - [ ] **Advanced Visualizations**: Interactive charts and graphs
 - [ ] **User Authentication**: Login system with prediction history
