@@ -4,7 +4,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-red)](https://streamlit.io/)
 [![Machine Learning](https://img.shields.io/badge/ML-Scikit%20Learn-orange)](https://scikit-learn.org/)
 
-A comprehensive machine learning-powered web application that predicts multiple diseases including Diabetes, Heart Disease, and Parkinson's Disease. Built with **Streamlit** for an intuitive user interface and powered by **Support Vector Machine (SVM)** and **Logistic Regression** algorithms.
+A comprehensive machine learning-powered web application that predicts multiple diseases including **Diabetes, Heart Disease,** and **Parkinson's Disease**. Built with **Streamlit** for an intuitive user interface and powered by **Support Vector Machine (SVM)** and **Logistic Regression** algorithms.
 
 ![](https://i.postimg.cc/7Y4XSMDF/multiple-disease-prediction.png)
 
@@ -112,11 +112,11 @@ pip package manager
 
 1. Pull the image from Docker Hub
    ```bash
-   docker pull samanwoysaha/multiple-disease-prediction:latest
+   docker pull samanwoysaha/multiple-disease-prediction:1.0
    ```
 2. RUN the image
    ```bash
-   docker run -p 8501:8501 samanwoysaha/multiple-disease-prediction:latest
+   docker run -p 8501:8501 samanwoysaha/multiple-disease-prediction:1.0
    ```
 
 ## 📁 Project Structure
