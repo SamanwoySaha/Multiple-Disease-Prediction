@@ -181,16 +181,4 @@ Multiple-Disease-Prediction/
 
 ## 🔗 Quick Links
 
-- **[🚀 Live Demo](http://ec2-43-204-23-83.ap-south-1.compute.amazonaws.com:8501/)**
-
-## ⚠️ Disclaimer
-
-**Important Medical Disclaimer:**
-
-This application is for **educational and research purposes only**. It should **NOT** be used as a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of qualified healthcare providers with any questions regarding medical conditions.
-
-<div align="center">
-
-⭐ **Star this repo if you found it helpful!** ⭐
-
-</div>
+- **[🚀 Live Demo](http://ec2-3-89-119-62.compute-1.amazonaws.com:8501/)**
